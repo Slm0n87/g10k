@@ -151,7 +151,7 @@ func main() {
 	checkSum = *checkSumFlag
 
 	if *versionFlag {
-		fmt.Println("g10k Version 1.0 Build time:", buildtime, "UTC")
+		fmt.Println("g10k Version 1.0-v0.2.6 Build time:", buildtime, "UTC")
 		os.Exit(0)
 	}
 
